@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Espaço de Comentários</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
+  <!-- Ícones Font Awesome -->
+  <script src="https://kit.fontawesome.com/7ce2f620d1.js" crossorigin="anonymous"></script>
+  <!-- Css -->
+  <link rel="stylesheet" href="/css/stylecomentario.css">
+  <!-- favicon -->
+  <link rel="icon" href="/favicon/favicon.ico" type="image/x-icon">
+  <link rel="shortcut icon" type="image/jpg" href="/favicon/fav.jpg" />
+</head>
+
+<body>
+
+  <div id="comment-area">
+    <div class="container">
+      <div class="row">
+        <div class="titulo-comment text-center col-12 mt-5">
+          <h3>Deixe seu feedback Sobre o site!</h3>
+        </div>
+        <div class="col-12 d-flex justify-content-center mt-5">
+          <form id="formulario" class="form col-md-6 border border-dark"  method="" action="">
+            <div class="mb-3 mt-4">
+              <label class="form-label">Nome Completo:</label>
+              <input type="text" id="inputName" class="form-control" placeholder="Digite Seu nome Completo..."  required oninvalid="this.setCustomValidity('Digite seu nome completo...')" onchange="try{setCustomValidity('')}catch(e){}" >
+            </div>
+            <div class="mb-3">
+              <label class="form-label">Deixe sua mensagem abaixo:</label>
+              <textarea class="form-control" id="inputText" rows="4" placeholder="Mensagem...." required oninvalid="this.setCustomValidity('Deixe sua mensagem acima...')" onchange="try{setCustomValidity('')}catch(e){}"></textarea>
+            </div>
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="main-btn mb-3 pl-3 pr-3">ENVIAR!</button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container" id="div-comment">
+    <div class="row">
+      <div class="d-flex justify-content-center col-12 mt-5">
+        <div class="bg-white p-3 col-md-6 border border-dark" id="commentPost">
+          <h5 class="text-center mb-3">Comentários:</h5>
+        </div>
+    </div>
+  </div>
+
+  </div>
+  <footer>
+    <div id="copy-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 ">
+            <p>Desenvolvido por <a href="#">Gabriel de Simões Pires</a>&copy; 2023</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery (necessário para alguns componentes do Bootstrap) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- Popper.js (necessário para alguns componentes do Bootstrap) -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
+  <!-- JS -->
+  <script src="/js/script.js"></script>
+</body>
+
+</html>

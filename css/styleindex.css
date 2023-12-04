@@ -1,0 +1,89 @@
+html{
+        scroll-behavior: smooth;
+}
+
+/* Barra de navevação */
+nav{
+    background-color: #696969;
+}
+#logo{
+    border-radius: 30px;
+}
+.navbar-toggler-icon {
+    color: red;
+}
+/* Consultoria online*/
+#consultoria-area{
+    display: flex;
+    background-color: #dcdcdc;
+}
+.titulo-consultoria h3{
+    font-size: 40px;
+    font-weight: bold;
+}
+.img-consultoria{
+    margin-top: 15px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+}
+ul{
+    font-size: 18px;
+}
+
+/* Suplementos */
+#suplemento-area{
+    display: flex;
+    background-color: #FFFFE0;
+}
+.titulo-suplemento h3{
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+
+/* Rodapé */
+.main-btn{
+    background-color: #FFF;
+    color: #696969;
+    border-radius: 2px;
+    box-shadow: 3px 3px 3px #696969;
+    margin-top: 10px;
+   }
+   .main-btn:hover{
+       background-color: #696969;
+       color: #FFF;
+   }
+   #call-area p, #call-area #call-btn{
+       font-size: 13px;
+       letter-spacing: 0;
+       margin: 0;
+       width: 50%;
+   }
+   
+   /* contact */
+   .contact-box{
+       border: none;
+       margin-bottom: 0;
+   }
+   .linkedin-box{
+       padding: 15px 25px;
+    }
+    .linkedin-box a{
+    text-decoration: none;
+    }
+   #copy-area{
+       margin-top: 70px;
+       background-color: #696969;
+       text-align: center;
+   }
+   #copy-area p{
+       font-size: 16px;
+       margin-top: 5px;
+       margin-bottom: 3px;
+   }
+   #copy-area a{
+       text-decoration: none;
+       color: #FFF;
+   }

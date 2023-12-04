@@ -1,0 +1,53 @@
+/* conteudo */
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Garante que o corpo da página ocupa pelo menos a altura da viewport */
+    margin: 0;
+    background-color: #696969;
+}
+
+/* comment-area */
+#comment-area form{
+    background-color: #fff;
+    border-radius: 10px;
+}
+.titulo-comment h3{
+    color: #fff;
+}
+#commentPost {
+    border-radius: 5px;
+}
+#div-comment{
+    flex:1; /* garante que o elemento pega o restante da pagina */
+}
+/* Rodapé */
+.main-btn{
+    background-color: #FFF;
+    color: #00BFFF;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #696969;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border-width: 1px 1px;
+   }
+   .main-btn:hover{
+       background-color: #00BFFF;
+       color: #FFF;
+   }
+
+/* Footer */
+#copy-area{
+    margin-top: 70px;
+    background-color: #00BFFF;
+    text-align: center;
+}
+#copy-area p{
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}
+#copy-area a{
+    text-decoration: none;
+    color: #FFF;
+}
